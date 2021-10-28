@@ -9,13 +9,14 @@
   </head>
   <body>
     <section class="calculator">
-      <input type="number" id="result" disabled />
+      <p id="para" class="hide">Invalid Equality!</p>
+      <input type="text" id="result" disabled />
       <div class="numbers">
         <div>
           <button class="btn" data-num="(">(</button>
           <button class="btn" data-num=")">)</button>
           <button class="btn" data-num="%">%</button>
-          <button class="btn" id="deleteLast" data-num="C">C</button>
+          <button id="deleteLast">C</button>
         </div>
         <div>
           <!-- <button class="btn" data-num="*">*</button>
@@ -57,15 +58,13 @@
           <button id="eq">=</button> -->
 
           <button class="btn" data-num="0">0</button>
-          <button class="btn">.</button>
+          <button class="btn" data-num=".">.</button>
           <button id="eq">=</button>
           <button class="btn" data-num="+">+</button>
         </div>
-        <div>
-          <!-- <button id="deleteLast">C</button> -->
-          <button id="deleteAll">AC</button>
-        </div>
+        <!-- <button id="deleteLast">C</button> -->
       </div>
+      <button id="deleteAll">AC</button>
     </section>
     <script src="./home.js"></script>
   </body>
