@@ -42,12 +42,11 @@
 button {
   background-color: #f1f3f4;
   padding: 10px 40px;
-  margin: 0 20px;
   margin: 10px 5px;
   border-radius: 50px;
   cursor: pointer;
   border: none;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 #eq {
@@ -84,4 +83,24 @@ button {
   background-color: #fc8020;
   color: #fff;
   width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  button {
+    font-size: 5vw;
+    padding: 10px 20px;
+    margin: 5px;
+  }
+
+  .calculator {
+    margin: 5rem 1rem;
+  }
+
+  #para {
+    font-size: 1.5rem;
+  }
+
+  #result {
+    font-size: 1.5rem;
+  }
 }
