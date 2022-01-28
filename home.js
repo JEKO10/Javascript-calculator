@@ -24,7 +24,7 @@ equal.addEventListener("click", () => {
     result.value = "";
     setTimeout(function () {
       para.classList.add("hide");
-    }, 2500);
+    }, 1500);
   }
 });
 
