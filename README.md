@@ -12,11 +12,11 @@
 
 ## Project task
 
-This is fully functional calculator, created using javascript.
+This is a fully functional calculator, created using javascript.
 
 ## Project overview
 
-I assigned data-num values to numbers and operations buttons. Using eval function, which just calculates the calculator input value, it was easy to make such thing. I also created button for clearing whole calculator input value, and button for deleting last digit. 
+I assigned data-num values to numbers and operations buttons. Using the eval function, which just calculates the calculator input value, it was easy to make such a thing. I also created a button for clearing the whole calculator input value and a button for deleting the last digit. 
 
 ## Built with
 
